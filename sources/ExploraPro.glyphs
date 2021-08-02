@@ -77,37 +77,8 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature calt;\012feature clig;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012feature swsh;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature salt;\012";
+code = "feature ss01;\012feature ss02;\012feature ss03;\012feature clig;\012feature ss04;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature salt;\012";
 name = aalt;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;\012sub longs t by longs_t;\012sub s t by s_t;\012";
-name = dlig;
-},
-{
-automatic = 1;
-code = "sub A by A.ss01;\012sub B by B.ss01;\012sub C by C.ss01;\012sub D by D.ss01;\012sub E by E.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub H by H.ss01;\012sub I by I.ss01;\012sub J by J.ss01;\012sub K by K.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub N by N.ss01;\012sub O by O.ss01;\012sub P by P.ss01;\012sub Q by Q.ss01;\012sub R by R.ss01;\012sub S by S.ss01;\012sub T by T.ss01;\012sub U by U.ss01;\012sub V by V.ss01;\012sub W by W.ss01;\012sub X by X.ss01;\012sub Y by Y.ss01;\012sub Z by Z.ss01;\012sub a by a.ss01;\012sub b by b.ss01;\012sub c by c.ss01;\012sub d by d.ss01;\012sub e by e.ss01;\012sub f by f.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub k by k.ss01;\012sub l by l.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub o by o.ss01;\012sub p by p.ss01;\012sub q by q.ss01;\012sub r by r.ss01;\012sub s by s.ss01;\012sub t by t.ss01;\012sub u by u.ss01;\012sub v by v.ss01;\012sub w by w.ss01;\012sub x by x.ss01;\012sub y by y.ss01;\012sub z by z.ss01;\012sub ampersand by ampersand.ss01;\012";
-name = ss01;
-},
-{
-automatic = 1;
-code = "sub a by a.ss02;\012sub b by b.ss02;\012sub c by c.ss02;\012sub d by d.ss02;\012sub e by e.ss02;\012sub f by f.ss02;\012sub g by g.ss02;\012sub h by h.ss02;\012sub i by i.ss02;\012sub j by j.ss02;\012sub k by k.ss02;\012sub l by l.ss02;\012sub m by m.ss02;\012sub n by n.ss02;\012sub o by o.ss02;\012sub p by p.ss02;\012sub q by q.ss02;\012sub r by r.ss02;\012sub s by s.ss02;\012sub t by t.ss02;\012sub u by u.ss02;\012sub v by v.ss02;\012sub w by w.ss02;\012sub x by x.ss02;\012sub y by y.ss02;\012sub z by z.ss02;\012";
-name = ss02;
-},
-{
-automatic = 1;
-code = "sub b by b.ss03;\012sub d by d.ss03;\012sub f by f.ss03;\012sub g by g.ss03;\012sub h by h.ss03;\012sub j by j.ss03;\012sub k by k.ss03;\012sub l by l.ss03;\012sub p by p.ss03;\012sub q by q.ss03;\012sub y by y.ss03;\012";
-name = ss03;
-},
-{
-automatic = 1;
-code = "lookup clig0 {\012	sub A E by AE;\012	sub I J by IJ;\012	sub O E by OE;\012	sub a e by ae;\012	sub i j by ij;\012	sub o e by oe;\012} clig0;\012lookup clig1 {\012	sub E x p l o r a by Explora;\012} clig1;\012";
-name = clig;
-},
-{
-code = "sub one by begin.swash1;\012sub two by begin.swash2;\012sub three by begin.swash3;\012sub four by end.swash1;\012sub five by end.swash2;\012sub six by end.swash3;\012sub seven by _301;\012sub eight by _302;\012";
-name = ss04;
 },
 {
 automatic = 1;
@@ -141,6 +112,11 @@ name = hlig;
 },
 {
 automatic = 1;
+code = "lookupflag IgnoreMarks;\012sub longs t by longs_t;\012sub s t by s_t;\012";
+name = dlig;
+},
+{
+automatic = 1;
 code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
 },
@@ -148,6 +124,30 @@ name = liga;
 automatic = 1;
 code = "sub A by A.ss01;\012sub B by B.ss01;\012sub C by C.ss01;\012sub D by D.ss01;\012sub E by E.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub H by H.ss01;\012sub I by I.ss01;\012sub J by J.ss01;\012sub K by K.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub N by N.ss01;\012sub O by O.ss01;\012sub P by P.ss01;\012sub Q by Q.ss01;\012sub R by R.ss01;\012sub S by S.ss01;\012sub T by T.ss01;\012sub U by U.ss01;\012sub V by V.ss01;\012sub W by W.ss01;\012sub X by X.ss01;\012sub Y by Y.ss01;\012sub Z by Z.ss01;\012sub a by a.ss01;\012sub b by b.ss01;\012sub c by c.ss01;\012sub d by d.ss01;\012sub e by e.ss01;\012sub f by f.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub k by k.ss01;\012sub l by l.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub o by o.ss01;\012sub p by p.ss01;\012sub q by q.ss01;\012sub r by r.ss01;\012sub s by s.ss01;\012sub t by t.ss01;\012sub u by u.ss01;\012sub v by v.ss01;\012sub w by w.ss01;\012sub x by x.ss01;\012sub y by y.ss01;\012sub z by z.ss01;\012sub ampersand by ampersand.ss01;\012";
 name = salt;
+},
+{
+automatic = 1;
+code = "sub A by A.ss01;\012sub B by B.ss01;\012sub C by C.ss01;\012sub D by D.ss01;\012sub E by E.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub H by H.ss01;\012sub I by I.ss01;\012sub J by J.ss01;\012sub K by K.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub N by N.ss01;\012sub O by O.ss01;\012sub P by P.ss01;\012sub Q by Q.ss01;\012sub R by R.ss01;\012sub S by S.ss01;\012sub T by T.ss01;\012sub U by U.ss01;\012sub V by V.ss01;\012sub W by W.ss01;\012sub X by X.ss01;\012sub Y by Y.ss01;\012sub Z by Z.ss01;\012sub a by a.ss01;\012sub b by b.ss01;\012sub c by c.ss01;\012sub d by d.ss01;\012sub e by e.ss01;\012sub f by f.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub k by k.ss01;\012sub l by l.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub o by o.ss01;\012sub p by p.ss01;\012sub q by q.ss01;\012sub r by r.ss01;\012sub s by s.ss01;\012sub t by t.ss01;\012sub u by u.ss01;\012sub v by v.ss01;\012sub w by w.ss01;\012sub x by x.ss01;\012sub y by y.ss01;\012sub z by z.ss01;\012sub ampersand by ampersand.ss01;\012";
+name = ss01;
+},
+{
+automatic = 1;
+code = "sub a by a.ss02;\012sub b by b.ss02;\012sub c by c.ss02;\012sub d by d.ss02;\012sub e by e.ss02;\012sub f by f.ss02;\012sub g by g.ss02;\012sub h by h.ss02;\012sub i by i.ss02;\012sub j by j.ss02;\012sub k by k.ss02;\012sub l by l.ss02;\012sub m by m.ss02;\012sub n by n.ss02;\012sub o by o.ss02;\012sub p by p.ss02;\012sub q by q.ss02;\012sub r by r.ss02;\012sub s by s.ss02;\012sub t by t.ss02;\012sub u by u.ss02;\012sub v by v.ss02;\012sub w by w.ss02;\012sub x by x.ss02;\012sub y by y.ss02;\012sub z by z.ss02;\012";
+name = ss02;
+},
+{
+automatic = 1;
+code = "sub b by b.ss03;\012sub d by d.ss03;\012sub f by f.ss03;\012sub g by g.ss03;\012sub h by h.ss03;\012sub j by j.ss03;\012sub k by k.ss03;\012sub l by l.ss03;\012sub p by p.ss03;\012sub q by q.ss03;\012sub y by y.ss03;\012";
+name = ss03;
+},
+{
+automatic = 1;
+code = "lookup clig0 {\012	sub A E by AE;\012	sub I J by IJ;\012	sub O E by OE;\012	sub a e by ae;\012	sub i j by ij;\012	sub o e by oe;\012} clig0;\012lookup clig1 {\012	sub E x p l o r a by Explora;\012} clig1;\012";
+name = clig;
+},
+{
+code = "sub one by begin.swash1;\012sub two by begin.swash2;\012sub three by begin.swash3;\012sub four by end.swash1;\012sub five by end.swash2;\012sub six by end.swash3;\012sub seven by _301;\012sub eight by _302;\012";
+name = ss04;
 }
 );
 fontMaster = (
