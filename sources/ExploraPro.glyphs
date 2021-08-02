@@ -142483,16 +142483,7 @@ note = Explora;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "ExploraPro Regular";
-},
-{
-name = postscriptFontName;
-value = "ExploraPro-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362" = 1;
 };
