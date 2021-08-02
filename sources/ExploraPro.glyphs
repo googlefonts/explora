@@ -413,13 +413,14 @@ unicode = 0020;
 {
 color = 5;
 glyphname = nbspace;
-lastChange = "2021-08-02 17:26:45 +0000";
+lastChange = "2021-08-02 17:32:40 +0000";
 layers = (
 {
 layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
 width = 170;
 }
 );
+widthMetricsKey = space;
 note = space;
 unicode = 00A0;
 },
