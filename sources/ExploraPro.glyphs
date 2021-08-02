@@ -77,7 +77,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ss01;\012feature ss02;\012feature ss03;\012feature clig;\012feature ss04;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature salt;\012";
+code = "feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature clig;\012feature ss04;\012feature lnum;\012feature onum;\012feature case;\012";
 name = aalt;
 },
 {
@@ -104,6 +104,21 @@ name = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
 name = ordn;
+},
+{
+automatic = 1;
+code = "sub zero.osf by zero;\012sub one.osf by one;\012sub two.osf by two;\012sub three.osf by three;\012sub four.osf by four;\012sub five.osf by five;\012sub six.osf by six;\012sub seven.osf by seven;\012sub eight.osf by eight;\012sub nine.osf by nine;\012";
+name = lnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.osf;\012sub one by one.osf;\012sub two by two.osf;\012sub three by three.osf;\012sub four by four.osf;\012sub five by five.osf;\012sub six by six.osf;\012sub seven by seven.osf;\012sub eight by eight.osf;\012sub nine by nine.osf;\012";
+name = onum;
+},
+{
+automatic = 1;
+code = "sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012";
+name = case;
 },
 {
 automatic = 1;
@@ -374,6 +389,15 @@ width = 170;
 note = CR;
 },
 {
+glyphname = NULL;
+layers = (
+{
+layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
+width = 600;
+}
+);
+},
+{
 color = 5;
 glyphname = space;
 lastChange = "2021-08-02 16:25:37 +0000";
@@ -385,6 +409,19 @@ width = 170;
 );
 note = space;
 unicode = 0020;
+},
+{
+color = 5;
+glyphname = nbspace;
+lastChange = "2021-08-02 17:26:45 +0000";
+layers = (
+{
+layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
+width = 170;
+}
+);
+note = space;
+unicode = 00A0;
 },
 {
 color = 5;
@@ -111675,8 +111712,8 @@ width = 445;
 },
 {
 color = 5;
-glyphname = zero.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = zero.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -111761,8 +111798,8 @@ note = zero.onum;
 },
 {
 color = 5;
-glyphname = one.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = one.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -111923,8 +111960,8 @@ note = one.onum;
 },
 {
 color = 5;
-glyphname = two.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = two.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -112113,8 +112150,8 @@ note = two.onum;
 },
 {
 color = 5;
-glyphname = three.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = three.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -112311,8 +112348,8 @@ note = three.onum;
 },
 {
 color = 5;
-glyphname = four.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = four.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -112535,8 +112572,8 @@ note = four.onum;
 },
 {
 color = 5;
-glyphname = five.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = five.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -112737,8 +112774,8 @@ note = five.onum;
 },
 {
 color = 5;
-glyphname = six.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = six.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -112875,8 +112912,8 @@ note = six.onum;
 },
 {
 color = 5;
-glyphname = seven.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = seven.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -112999,8 +113036,8 @@ note = seven.onum;
 },
 {
 color = 5;
-glyphname = eight.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = eight.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -113161,8 +113198,8 @@ note = eight.onum;
 },
 {
 color = 5;
-glyphname = nine.onum;
-lastChange = "2021-08-02 16:25:37 +0000";
+glyphname = nine.osf;
+lastChange = "2021-08-02 17:31:14 +0000";
 layers = (
 {
 background = {
@@ -121325,31 +121362,6 @@ width = 266;
 }
 );
 unicode = 27E9;
-},
-{
-color = 5;
-glyphname = uni00A0;
-lastChange = "2021-08-02 16:25:37 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 216;
-}
-);
-note = uni00A0;
-unicode = 00A0;
-},
-{
-color = 5;
-glyphname = .null;
-lastChange = "2021-08-02 16:25:37 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 0;
-}
-);
-note = .null;
 },
 {
 color = 5;
@@ -142903,16 +142915,16 @@ v = 37;
 };
 comma = {
 eight = 23;
-eight.onum = 14;
+eight.osf = 14;
 five = 32;
-five.onum = 46;
+five.osf = 46;
 four = -28;
-nine.onum = 28;
+nine.osf = 28;
 seven = 23;
-seven.onum = 65;
+seven.osf = 65;
 six = -14;
 space = 35;
-three.onum = 56;
+three.osf = 56;
 };
 d = {
 e = 23;
@@ -142951,7 +142963,7 @@ six = 29;
 two = -17;
 zero = 36;
 };
-eight.onum = {
+eight.osf = {
 period = -38;
 };
 end.swash1 = {
@@ -142992,7 +143004,7 @@ seven = 86;
 two = -17;
 zero = 28;
 };
-four.onum = {
+four.osf = {
 comma = -23;
 };
 g = {
@@ -143066,7 +143078,7 @@ seven = 11;
 three = -35;
 two = -63;
 };
-nine.onum = {
+nine.osf = {
 comma = -56;
 period = -69;
 };
@@ -143102,11 +143114,11 @@ z = -18;
 };
 period = {
 eight = 19;
-eight.onum = 18;
+eight.osf = 18;
 five = 33;
-four.onum = -14;
-one.onum = 19;
-three.onum = 37;
+four.osf = -14;
+one.osf = 19;
+three.osf = 37;
 };
 q = {
 quotedblright = 28;
@@ -143233,7 +143245,7 @@ six = -23;
 three = -52;
 two = -35;
 };
-seven.onum = {
+seven.osf = {
 comma = -47;
 period = -56;
 };
@@ -143298,7 +143310,7 @@ seven = 23;
 two = -46;
 zero = 18;
 };
-three.onum = {
+three.osf = {
 comma = -32;
 };
 tsa_di = {
@@ -143452,7 +143464,7 @@ seven = 63;
 six = 23;
 zero = 32;
 };
-two.onum = {
+two.osf = {
 comma = -65;
 period = -56;
 };
@@ -143554,7 +143566,7 @@ six = 4;
 three = -44;
 two = -91;
 };
-zero.onum = {
+zero.osf = {
 comma = -37;
 period = -37;
 };
