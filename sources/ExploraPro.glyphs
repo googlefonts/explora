@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1356";
 copyright = "�2011 by Robert E. Leuschke. All rights reserved.";
 customParameters = (
 {
@@ -82814,94 +82814,6 @@ width = 3282;
 }
 );
 note = Explora;
-},
-{
-color = 11;
-glyphname = atingacute;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Aeacute;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Odotmacron;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = odotmacron;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Acircumflextlde;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = acircumflextlde;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Acircumflexdotabelow;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = acircumflexdotabelow;
-lastChange = "2021-05-31 23:28:41 +0000";
-layers = (
-{
-layerId = "DB049CBD-EE5A-4C6A-B8D5-3A4D87564362";
-width = 600;
-}
-);
 }
 );
 instances = (
