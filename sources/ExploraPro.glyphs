@@ -60722,7 +60722,7 @@ note = k.1;
 {
 color = 5;
 glyphname = l.ss01;
-lastChange = "2021-08-10 17:38:39 +0000";
+lastChange = "2021-08-10 17:59:03 +0000";
 layers = (
 {
 background = {
@@ -60908,7 +60908,7 @@ nodes = (
 );
 }
 );
-width = 152;
+width = 159;
 }
 );
 note = l.1;
@@ -62392,7 +62392,7 @@ note = r.1;
 {
 color = 5;
 glyphname = s.ss01;
-lastChange = "2021-08-06 01:36:33 +0000";
+lastChange = "2021-08-10 18:01:53 +0000";
 layers = (
 {
 background = {
@@ -62548,7 +62548,7 @@ nodes = (
 );
 }
 );
-width = 237;
+width = 232;
 }
 );
 note = s.1;
@@ -125645,5 +125645,5 @@ GSDimensionPlugin.Dimensions = {
 };
 };
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 10;
 }
